@@ -1,1 +1,19 @@
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector Store
+faiss_index.index
+
+# Logs
+*.log 
+
+.streamlit/
+
+venv/
+__pycache__/
+.env
+*.pyc
